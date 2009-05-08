@@ -14,8 +14,8 @@ options = {:file => File.dirname(__FILE__) + '/gettysburg.txt',
            :font => "Times-Roman",
            :palette => "winter",
            :lang => "EN",
-           :distance_type => "ellipse",
-           :short_name => "gettysburg_100_Times-Roman_horizontal_ellipse"          
+           :distance_type => "radial_ll",
+           :short_name => "gettysburg_100_Times-Roman_horizontal_radial_ll"          
 }
 t = time { 
   @cloud = WordCloud.new(options)
